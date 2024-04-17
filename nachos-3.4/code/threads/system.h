@@ -46,6 +46,7 @@ extern STable* semTab;
 
 #ifdef FILESYS_NEEDED 		// FILESYS or FILESYS_STUB 
 #include "filesys.h"
+
 extern FileSystem  *fileSystem;
 #endif
 
